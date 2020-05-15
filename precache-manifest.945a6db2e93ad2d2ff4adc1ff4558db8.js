@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3294ba3a2f949d4acceaf8b9bff5af09",
+    "revision": "8e70ad25c2c79bab865432fe473ce471",
     "url": "/barkr-react/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/barkr-react/static/css/2.8d59620d.chunk.css"
   },
   {
-    "revision": "1cb48283e9a3d07db594",
+    "revision": "6242143c4740f3cbc5c0",
     "url": "/barkr-react/static/css/main.bfce6dbc.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/barkr-react/static/js/2.87ffee19.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1cb48283e9a3d07db594",
-    "url": "/barkr-react/static/js/main.6c794647.chunk.js"
+    "revision": "6242143c4740f3cbc5c0",
+    "url": "/barkr-react/static/js/main.f44405f5.chunk.js"
   },
   {
     "revision": "3f4e12f47bbe6abc97f4",

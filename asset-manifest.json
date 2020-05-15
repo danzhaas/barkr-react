@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/barkr-react/static/css/main.bfce6dbc.chunk.css",
-    "main.js": "/barkr-react/static/js/main.6c794647.chunk.js",
-    "main.js.map": "/barkr-react/static/js/main.6c794647.chunk.js.map",
+    "main.js": "/barkr-react/static/js/main.f44405f5.chunk.js",
+    "main.js.map": "/barkr-react/static/js/main.f44405f5.chunk.js.map",
     "runtime-main.js": "/barkr-react/static/js/runtime-main.5c60889a.js",
     "runtime-main.js.map": "/barkr-react/static/js/runtime-main.5c60889a.js.map",
     "static/css/2.8d59620d.chunk.css": "/barkr-react/static/css/2.8d59620d.chunk.css",
     "static/js/2.87ffee19.chunk.js": "/barkr-react/static/js/2.87ffee19.chunk.js",
     "static/js/2.87ffee19.chunk.js.map": "/barkr-react/static/js/2.87ffee19.chunk.js.map",
     "index.html": "/barkr-react/index.html",
-    "precache-manifest.f6ea86e6a6d62d7fd1faf2ae2f7decad.js": "/barkr-react/precache-manifest.f6ea86e6a6d62d7fd1faf2ae2f7decad.js",
+    "precache-manifest.945a6db2e93ad2d2ff4adc1ff4558db8.js": "/barkr-react/precache-manifest.945a6db2e93ad2d2ff4adc1ff4558db8.js",
     "service-worker.js": "/barkr-react/service-worker.js",
     "static/css/2.8d59620d.chunk.css.map": "/barkr-react/static/css/2.8d59620d.chunk.css.map",
     "static/css/main.bfce6dbc.chunk.css.map": "/barkr-react/static/css/main.bfce6dbc.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.8d59620d.chunk.css",
     "static/js/2.87ffee19.chunk.js",
     "static/css/main.bfce6dbc.chunk.css",
-    "static/js/main.6c794647.chunk.js"
+    "static/js/main.f44405f5.chunk.js"
   ]
 }
