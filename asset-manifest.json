@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/barkr-react/static/css/main.1a091b19.chunk.css",
-    "main.js": "/barkr-react/static/js/main.333cba8d.chunk.js",
-    "main.js.map": "/barkr-react/static/js/main.333cba8d.chunk.js.map",
+    "main.js": "/barkr-react/static/js/main.dc03008d.chunk.js",
+    "main.js.map": "/barkr-react/static/js/main.dc03008d.chunk.js.map",
     "runtime-main.js": "/barkr-react/static/js/runtime-main.5c60889a.js",
     "runtime-main.js.map": "/barkr-react/static/js/runtime-main.5c60889a.js.map",
     "static/css/2.8d59620d.chunk.css": "/barkr-react/static/css/2.8d59620d.chunk.css",
-    "static/js/2.87ffee19.chunk.js": "/barkr-react/static/js/2.87ffee19.chunk.js",
-    "static/js/2.87ffee19.chunk.js.map": "/barkr-react/static/js/2.87ffee19.chunk.js.map",
+    "static/js/2.d062443a.chunk.js": "/barkr-react/static/js/2.d062443a.chunk.js",
+    "static/js/2.d062443a.chunk.js.map": "/barkr-react/static/js/2.d062443a.chunk.js.map",
     "index.html": "/barkr-react/index.html",
-    "precache-manifest.a5b7c60f1160fdcc0a202d994e6e9b7b.js": "/barkr-react/precache-manifest.a5b7c60f1160fdcc0a202d994e6e9b7b.js",
+    "precache-manifest.9f87cd42d4f5687f6e654c4d70b48f04.js": "/barkr-react/precache-manifest.9f87cd42d4f5687f6e654c4d70b48f04.js",
     "service-worker.js": "/barkr-react/service-worker.js",
     "static/css/2.8d59620d.chunk.css.map": "/barkr-react/static/css/2.8d59620d.chunk.css.map",
     "static/css/main.1a091b19.chunk.css.map": "/barkr-react/static/css/main.1a091b19.chunk.css.map",
-    "static/js/2.87ffee19.chunk.js.LICENSE.txt": "/barkr-react/static/js/2.87ffee19.chunk.js.LICENSE.txt"
+    "static/js/2.d062443a.chunk.js.LICENSE.txt": "/barkr-react/static/js/2.d062443a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5c60889a.js",
     "static/css/2.8d59620d.chunk.css",
-    "static/js/2.87ffee19.chunk.js",
+    "static/js/2.d062443a.chunk.js",
     "static/css/main.1a091b19.chunk.css",
-    "static/js/main.333cba8d.chunk.js"
+    "static/js/main.dc03008d.chunk.js"
   ]
 }
