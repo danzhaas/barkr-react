@@ -1,0 +1,48 @@
+{
+  "name": "barkr-react",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://dan-z-haas.github.io/barkr-react",
+  "dependencies": {
+    "@material-ui/core": "^4.9.11",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "bootstrap": "^4.4.1",
+    "bootstrap-social": "^5.1.1",
+    "cse": "^1.0.4",
+    "font-awesome": "^4.7.0",
+    "gh-pages": "^2.2.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.0.0",
+    "react-iframe": "^1.8.0",
+    "react-popper": "^2.0.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.4.1",
+    "reactstrap": "^8.4.1"
+  },
+  "scripts": {
+    "start": "node ./node_modules/react-scripts/bin/react-scripts.js start",
+    "build": "node ./node_modules/react-scripts/bin/react-scripts.js build",
+    "test": "node ./node_modules/react-scripts/bin/react-scripts.js test",
+    "eject": "node ./node_modules/react-scripts/bin/react-scripts.js eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

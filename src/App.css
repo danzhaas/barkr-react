@@ -1,0 +1,273 @@
+.container {
+  max-width:1200px;
+  border:10px solid #FFC107;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:#33273a;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Fredoka One", cursive;
+}
+
+* {
+  margin:0;
+  padding:0;
+}
+
+/* .row, .column {
+ height:100%;
+} */
+
+.row {
+  background-color:#927737;
+}
+
+.jumbotron {
+  background-color:#FFC107;
+  margin:0;
+}
+
+#landing-backsplash {
+  object-fit:cover;
+  background-origin: border-box;
+  height:100%;
+  z-index: 0;
+}
+
+#dog-home-img {
+  object-fit:cover;
+  background-origin: border-box;
+}
+
+#landing-overlay {
+  position:absolute;
+  width:100%;
+  height:100%;
+}
+
+#landing-logo {
+  background-color:rgba(255,193,7,0.3);
+}
+
+#landing-logo * {
+  text-shadow: 5px 5px #343840;
+  font-size: 10vh;
+  z-index:15;
+}
+
+#dog-name {
+  bottom:0;
+  margin:0;
+  background-color:rgba(255,255,255,0.5);
+  font-size: 10vh;
+}
+
+#header-dogs {
+  height:100px;
+  width:100px;
+}
+
+#height-auto {
+  height:auto;
+}
+
+#navbar {
+  width:200px;
+  top:112px;
+  right:14px;
+  border:2px solid #DC3545;
+  z-index: 10;
+}
+
+.nav-link {
+  color: #DC3545;
+}
+
+.nav-icon {
+  width:32px;
+  padding:auto;
+  margin:0 3px;
+}
+
+i {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.modal-dialog {
+  width:75%;
+  margin: auto;
+}
+
+#home-nav-col > a, #home-nav-col > div, #home-nav-col > button {
+  height:20%;
+  width:100%;
+  background-color: #FFC107;
+}
+
+.home-nav-button {
+  height:100%;
+  width:100%;
+}
+
+.h12vh {
+  height:12.5vh;
+}
+
+.h75vh {
+  height:75vh;
+}
+
+.h100vh {
+  height: 100vh;
+}
+
+#mapDiv, #searchDiv {
+  height:70vh;
+}
+
+#barkr-tab {
+  background-color:white;
+  color:gray;
+  margin-right: 3px;
+}
+
+#barkr-tab.active {
+  color:black;
+}
+
+#barkr-tab h3 {
+  margin:0;
+}
+
+.gsc-control-cse {
+  padding:0;
+  border:0;
+  height:70vh;
+  overflow:scroll;
+}
+
+.h80 {
+  height:80%;
+}
+
+.h20 {
+  height:20%;
+}
+
+.footer {
+  background-color: #FFC107;
+  margin:0;
+}
+
+#navbarBrand * {
+  color: #DC3545;
+}
+
+#navbarBrand:hover * {
+  color: black;
+}
+
+.hover-black:hover * {
+  color: black;
+}
+
+/* MEDIA QUERIES */
+
+
+/*  MD - XL */
+/* @media screen and (min-width: 768px) { */
+  #dog-home-img {
+    height: 80%;
+  }
+  #landing-center {
+    height:100vh;
+    z-index:0;
+    position:relative;
+    margin:0;
+    z-index:1
+  }
+  .landing-button {
+    height:45%;
+    width:100%;
+    display:block;
+    z-index:2;
+    background-color: rgba(255, 193, 7, 0.3);
+    margin:0;
+    border:0;
+  }
+  .landing-button:hover {
+    background-color: rgba(255, 193, 7, 0.6);
+  }
+  .top {
+    top:0
+  }
+  .bottom {
+    bottom:0;
+  }
+  .landing-button div {
+    height:100%;
+    width:100%;
+    padding:0;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  #landing-button div button {
+    height:100%;
+    width:100%;
+    background-color: rgba(255, 193, 7, 0.178);
+  }
+  .row {
+    border: 10px solid #927737;
+  }
+
+
+  /* XS and SM */
+@media screen and (max-width: 767px) {
+  .container {
+    padding:5px;
+    border:0;
+    background-color:#FFC107;
+  }
+  .row {
+    border: 5px solid #927737;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .col {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  #dog-home-img {
+    height: 50%;
+  }
+  #landing-backsplash {
+    position:absolute;
+    left:-100px;
+  }
+  #landing-center {
+    height:75%;
+    border-top: 0;
+    border-bottom: 0;
+  }
+  #landing-center * {
+    padding:0;
+  }
+  #landing-button {
+    height:12.5%;
+  }
+  #landing-button * {
+    height:100%;
+    padding:0;
+  }
+  #page-title {
+    font-size:7vw; 
+  }
+  #navbarBrand {
+    padding-top:0;
+    padding-bottom:0
+  }
+}
