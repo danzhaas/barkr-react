@@ -1,36 +1,46 @@
-import React from 'react';
-import { Modal, ModalHeader, ModalBody, ButtonGroup } from 'reactstrap';
+import React, { useContext } from 'react';
+import { Spinner, Modal, ModalHeader, ModalBody, ModalFooter, Button, ButtonGroup } from 'reactstrap';
 import { Link } from 'react-router-dom';
-import { DOGS } from '../shared/dogs'
+import Consumer from './configContext';
+
+// import { DOGS } from '../shared/dogs'
 
 export function DogChooserModal(props) {
-    
-    const dogs=DOGS;
-    const modal=props.modal;
+    const context = useContext(Consumer);
+    const modal = props.modal;
     const toggleModal = props.toggleModal;
-    const chooseDog=props.chooseDog;
+    const toggleNavbar = props.toggleNavbar;
+    const chooseDog = props.chooseDog;
+    const navCollapsed = props.navCollapsed;
 
-    const dogList=dogs.map(dog => {
-        return(
-            <div key={dog.id}>
-                <Link className="d-flex flex-row" onClick={() => {chooseDog(dog.id); toggleModal()}} to="/dog-home">
-                    <img className="border-1 border-primary rounded-circle" src={dog.pic.filter(pic => pic.type==="thumbnail")[0].img} alt={dog.name + " thumbnail"} />
-                    <h1 className="my-auto ml-2">{dog.name}</h1>
-                </Link>
+    
+    const dogList = context.dogs.length>0 && context.dogs.map(dog => {
+        return (
+            <div key={dog.id} className="w-100">
+                <Button className="bg-white w-100" >
+                    <Link className="d-flex flex-row" onClick={() => { chooseDog(dog.id); toggleModal(); if (navCollapsed===false) toggleNavbar() }} to="/meet/:dogId">
+                        <img className="border-1 border-primary rounded-circle" src={dog.pic.filter(pic => pic.type === "thumbnail")[0].img} alt={dog.name + " thumbnail"} />
+                        <h1 className="my-auto ml-2">{dog.name}</h1>
+                    </Link>
+                </Button>
             </div>
         )
     })
-    
+
     return (
         <Modal isOpen={modal} toggle={toggleModal} >
             <ModalHeader toggle={toggleModal}>Choose a Dog</ModalHeader>
-            <ModalBody>
+            <ModalBody className="p-1 p-md-3">
                 <ButtonGroup vertical>
-                    {dogList}
+                    {dogList || <Spinner color="primary" />}
                 </ButtonGroup>
             </ModalBody>
-        </Modal> 
+            <ModalFooter>
+                <p>Add Your Dog Coming July 2020</p>
+            </ModalFooter>
+        </Modal>
     )
+
 }
 
 export default DogChooserModal;

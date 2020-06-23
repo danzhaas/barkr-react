@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Header from './HeaderComponent';
 import { TabContent, TabPane, Nav, NavItem, NavLink } from 'reactstrap';
-import { Consumer } from "./configContext";
+import Consumer from "./configContext";
 import Footer from './FooterComponent';
 import { Helmet } from 'react-helmet';
 
@@ -18,6 +18,7 @@ function AdventureSearch () {
 }
 
 function AdventureMap() {
+    
     return (
         <div id="mapDiv" className="embed-responsive embed-responsive-1by1">
             <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1J75h137lZpMDdLeovFbWOkHCl_YZDRlg" title="Google Custom Search Engine"></iframe>

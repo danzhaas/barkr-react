@@ -1,5 +1,5 @@
 //      NEW TEMPLATE FOR DOG DATA
-//     "id":1,              Not input - hidden
+//     "_id":1,              Not input - hidden
 //     "ownerId"            Not input - hidden
 //     "name":""            Input type text
 //     "bio":"",            Input type textarea
@@ -33,13 +33,16 @@
 //             "id":0,              Not input - hidden
 //             "content": ""         Input type text
 //         },
-//     ]
+//     ],
+//     "color-primary":             input color
+//     "color-secondary":           input color
 // }
-
+//      SOMEDAY MAYBE IMPLEMENT INDIVIDUAL DOG PAGE COLOR INPUTS
 
 export const DOGS = [
     {
-        "id":0,
+        "_id":"suede",
+        "ownerId":"dzh",
         "name":"Suede",
         "bio":" Hi, I'm a 4 1/2 year old female Treeing Walker Coonhound.  I love meeting people, eating treats, and going to the dog park.  Outside the park I need space from other dogs.  I know a lot of tricks, so go to the Talk to Me page to see all the commands I know.",
         "sex": "Female",
@@ -48,16 +51,8 @@ export const DOGS = [
         "from": "Harford County Humane Society, Fallston, MD",
         "siblings": "n/a",
         "owner": "Dan Haas",
-        "pic": [
-            {
-                "type":"thumbnail",
-                "img": "assets/img/suede-thumbnail.jpg"
-            },
-            {
-                "type":"profilePic",
-                "img": "assets/img/suede-on-bed-1000x800.jpg"
-            }
-        ],
+        "thumbnailPic": "assets/img/suede-thumbnail.jpg",
+        "profilePic": "assets/img/suede-thumbnail.jpg",
         "commands": [
             {
                 "id":0,
@@ -126,7 +121,6 @@ export const DOGS = [
                 "description":"I'll boop your hand, even if I have to jump for it."
             }
         ],    
-        "ZIP":"21202",
         "routine": [
             {
                 "id":0,
@@ -175,29 +169,6 @@ export const DOGS = [
             {
                 "id":0,
                 "content":"Suede is great!"
-            }
-        ],    
-        "contacts": [
-            {
-                "id":0,
-                "tabName":"Owner",
-                "tabContent":"Dan Haas",
-                "tabPhone":"555-555-5555",
-                "emergencyVet": false
-            },
-            {
-                "id":1,
-                "tabName":"Primary Vet",
-                "tabContent":"Claws n Paws Animal Hospital\n6500 Washington Blvd #101\nElkridge MD 21075",
-                "tabPhone":"410-579-2918",
-                "emergencyVet": false
-            },
-            {
-                "id":2,
-                "tabName":"Emergency Vet",
-                "tabContent":"Baltimore Emergency Vet\n32 Mellor Ave #C\nCatonsville MD 21228",
-                "tabPhone":"410-788-7040",
-                "emergencyVet": true
             }
         ]
     },

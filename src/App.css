@@ -19,9 +19,9 @@ h1 {
   padding:0;
 }
 
-/* .row, .column {
- height:100%;
-} */
+button {
+  box-sizing: border-box;
+}
 
 .row {
   background-color:#927737;
@@ -164,6 +164,14 @@ i {
   margin:0;
 }
 
+#navbarBrand {
+  height:100%
+}
+
+#navbarBrand > a {
+  height:100%;
+}
+
 #navbarBrand * {
   color: #DC3545;
 }
@@ -174,6 +182,10 @@ i {
 
 .hover-black:hover * {
   color: black;
+}
+
+.h-45 {
+  height: 45%;
 }
 
 /* MEDIA QUERIES */
@@ -192,7 +204,6 @@ i {
     z-index:1
   }
   .landing-button {
-    height:45%;
     width:100%;
     display:block;
     z-index:2;
@@ -268,6 +279,10 @@ i {
   }
   #navbarBrand {
     padding-top:0;
-    padding-bottom:0
+    padding-bottom:0;
+    height:auto;
+  }
+  #navbarBrand > a {
+    height:auto;
   }
 }

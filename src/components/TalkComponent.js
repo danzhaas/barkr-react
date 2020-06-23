@@ -1,7 +1,7 @@
 import React from 'react';
 import {Card, CardImg, CardBody, CardTitle, CardText} from 'reactstrap';
 import Header from './HeaderComponent';
-import { Consumer } from "./configContext";
+import Consumer from "./configContext";
 import Footer from './FooterComponent';
 
 function CommandCards(props) {
