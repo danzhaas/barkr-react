@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/barkr-react/precache-manifest.93cb1a7e24a1eeebd55b8d428d98fc48.js"
+  "/barkr-react/precache-manifest.3698460c697a8c23bd49a479b008fca0.js"
 );
 
 self.addEventListener('message', (event) => {
