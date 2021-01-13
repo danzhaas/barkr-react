@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/barkr-react/static/css/main.01ef2a6b.chunk.css",
-    "main.js": "/barkr-react/static/js/main.a81f199a.chunk.js",
-    "main.js.map": "/barkr-react/static/js/main.a81f199a.chunk.js.map",
-    "runtime-main.js": "/barkr-react/static/js/runtime-main.5c60889a.js",
-    "runtime-main.js.map": "/barkr-react/static/js/runtime-main.5c60889a.js.map",
-    "static/css/2.8d59620d.chunk.css": "/barkr-react/static/css/2.8d59620d.chunk.css",
-    "static/js/2.fa55fac2.chunk.js": "/barkr-react/static/js/2.fa55fac2.chunk.js",
-    "static/js/2.fa55fac2.chunk.js.map": "/barkr-react/static/js/2.fa55fac2.chunk.js.map",
+    "main.css": "/barkr-react/static/css/main.7a15229a.chunk.css",
+    "main.js": "/barkr-react/static/js/main.64dcdd73.chunk.js",
+    "main.js.map": "/barkr-react/static/js/main.64dcdd73.chunk.js.map",
+    "runtime-main.js": "/barkr-react/static/js/runtime-main.a30a154f.js",
+    "runtime-main.js.map": "/barkr-react/static/js/runtime-main.a30a154f.js.map",
+    "static/css/2.6be8ab28.chunk.css": "/barkr-react/static/css/2.6be8ab28.chunk.css",
+    "static/js/2.5e15cd34.chunk.js": "/barkr-react/static/js/2.5e15cd34.chunk.js",
+    "static/js/2.5e15cd34.chunk.js.map": "/barkr-react/static/js/2.5e15cd34.chunk.js.map",
     "index.html": "/barkr-react/index.html",
-    "precache-manifest.b8ec970e1975c2789488aab12f97b85f.js": "/barkr-react/precache-manifest.b8ec970e1975c2789488aab12f97b85f.js",
+    "precache-manifest.93cb1a7e24a1eeebd55b8d428d98fc48.js": "/barkr-react/precache-manifest.93cb1a7e24a1eeebd55b8d428d98fc48.js",
     "service-worker.js": "/barkr-react/service-worker.js",
-    "static/css/2.8d59620d.chunk.css.map": "/barkr-react/static/css/2.8d59620d.chunk.css.map",
-    "static/css/main.01ef2a6b.chunk.css.map": "/barkr-react/static/css/main.01ef2a6b.chunk.css.map",
-    "static/js/2.fa55fac2.chunk.js.LICENSE.txt": "/barkr-react/static/js/2.fa55fac2.chunk.js.LICENSE.txt"
+    "static/css/2.6be8ab28.chunk.css.map": "/barkr-react/static/css/2.6be8ab28.chunk.css.map",
+    "static/css/main.7a15229a.chunk.css.map": "/barkr-react/static/css/main.7a15229a.chunk.css.map",
+    "static/js/2.5e15cd34.chunk.js.LICENSE.txt": "/barkr-react/static/js/2.5e15cd34.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.5c60889a.js",
-    "static/css/2.8d59620d.chunk.css",
-    "static/js/2.fa55fac2.chunk.js",
-    "static/css/main.01ef2a6b.chunk.css",
-    "static/js/main.a81f199a.chunk.js"
+    "static/js/runtime-main.a30a154f.js",
+    "static/css/2.6be8ab28.chunk.css",
+    "static/js/2.5e15cd34.chunk.js",
+    "static/css/main.7a15229a.chunk.css",
+    "static/js/main.64dcdd73.chunk.js"
   ]
 }
